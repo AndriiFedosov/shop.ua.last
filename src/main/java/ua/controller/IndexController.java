@@ -25,7 +25,7 @@ public class IndexController {
 
 	@RequestMapping("/admin")
 	public String admin(){
-		return "dmin";
+		return "admin";
 	}
 
 	@RequestMapping("/login")
