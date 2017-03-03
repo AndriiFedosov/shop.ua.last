@@ -21,5 +21,8 @@ public class BasketEditor extends PropertyEditorSupport {
     public void setAsText(String text) throws IllegalArgumentException {
         Basket basket = service.findOne(Integer.valueOf(text));
         setValue(basket);
+        System.out.println();
     }
+
+
 }
